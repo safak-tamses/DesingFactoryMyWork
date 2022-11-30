@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aacfc61-ef1b-4082-ac59-a49120ef769b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesingFactoryMyWork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractFactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/RoundedRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/RoundedShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/RoundedSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Bottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/BuilderPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/ChickenBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/ColdDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/MealBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Packing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Pepsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/VegBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BuilderPattern/Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/FactoryPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryPattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/SingleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/SingletonPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrototypePattern/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669777888228</updated>
       <workItem from="1669777890852" duration="1984000" />
-      <workItem from="1669845493310" duration="2630000" />
+      <workItem from="1669845493310" duration="3636000" />
     </task>
     <servers />
   </component>
