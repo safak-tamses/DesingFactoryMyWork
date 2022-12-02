@@ -5,37 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aacfc61-ef1b-4082-ac59-a49120ef769b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/AdapterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/AdvencedMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPattern/VlcPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/BridgePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/DrawAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/GreenCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/RedCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BridgePattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompositePattern/CompositePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompositePattern/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/DecoratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/RedShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/ShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/AndCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/CriteriaFemale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/CriteriaMale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/CriteriaPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/CriteriaSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/OrCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterPattern/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/AbstractLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ErrorLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/FacadePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/ShapeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/FlyweightPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/ProxyImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/ProxyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/RealImage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +84,7 @@
       <workItem from="1669777890852" duration="1984000" />
       <workItem from="1669845493310" duration="6987000" />
       <workItem from="1669854599308" duration="25000" />
-      <workItem from="1669931307633" duration="3784000" />
+      <workItem from="1669931307633" duration="9155000" />
     </task>
     <servers />
   </component>
