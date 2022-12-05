@@ -1,7 +1,7 @@
 package CompositePattern;
 
 public class CompositePatternDemo {
-    public static void main(String[] args) {
+    public void test() {
         Employee CEO = new Employee("John","CEO", 30000);
 
         Employee headSales = new Employee("Robert","Head Sales", 20000);
@@ -32,5 +32,6 @@ public class CompositePatternDemo {
                 System.out.println(employee);
             }
         }
+        System.out.println("Done");
     }
 }

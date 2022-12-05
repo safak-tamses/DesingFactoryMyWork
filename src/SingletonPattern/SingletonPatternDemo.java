@@ -1,7 +1,7 @@
 package SingletonPattern;
 
 public class SingletonPatternDemo {
-    public static void main(String[] args) {
+    public void test() {
         SingleObject object = SingleObject.getInstance();
         object.showMessage();
         SingleObject object1 = SingleObject.getInstance();
@@ -16,5 +16,6 @@ public class SingletonPatternDemo {
 
         object1.showLog();
         object.showLog();
+        System.out.println("Done");
     }
 }

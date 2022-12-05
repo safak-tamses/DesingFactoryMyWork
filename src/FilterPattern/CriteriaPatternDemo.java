@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CriteriaPatternDemo {
-    public static void main(String[] args) {
+    public void test() {
         List<Person> persons = new ArrayList<Person>();
 
         persons.add(new Person("Robert", "Male", "Single"));
@@ -31,6 +31,7 @@ public class CriteriaPatternDemo {
 
         System.out.println("\nSingle Or Females: ");
         printPersons(singleOrFemale.meetCriteria(persons));
+        System.out.println("Done");
     }
 
     public static void printPersons(List<Person> persons) {
@@ -39,4 +40,5 @@ public class CriteriaPatternDemo {
             System.out.println("Person : [ Name : " + person.getName() + ", Gender : " + person.getGender() + ", Marital Status : " + person.getMaritalStatus() + " ]");
         }
     }
+
 }

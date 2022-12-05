@@ -1,7 +1,7 @@
 package AbstractFactoryPattern;
 
 public class AbstractFactoryPatternDemo {
-    public static void main(String[] args) {
+    public void test(){
         AbstractFactory shapeFactory = FactoryProducer.getFactory(false);
         Shape shape1 = shapeFactory.getShape("RECTANGLE");
         shape1.draw();
@@ -13,6 +13,6 @@ public class AbstractFactoryPatternDemo {
         shape3.draw();
         Shape shape4 = shapeFactory1.getShape("SQUARE");
         shape4.draw();
-
+        System.out.println("Done");
     }
 }

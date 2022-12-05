@@ -1,7 +1,7 @@
 package BuilderPattern;
 
 public class BuilderPatternDemo {
-    public static void main(String[] args) {
+    public void test() {
         MealBuilder mealBuilder = new MealBuilder();
 
         Meal vegMeal = mealBuilder.prepareVegMeal();
@@ -13,6 +13,7 @@ public class BuilderPatternDemo {
         System.out.println("Non veg");
         nonVegMeal.showItems();
         System.out.println("Total cost: " + nonVegMeal.getCost());
+        System.out.println("Done");
 
     }
 }

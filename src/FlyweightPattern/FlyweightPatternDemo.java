@@ -3,7 +3,7 @@ package FlyweightPattern;
 public class FlyweightPatternDemo {
     private static final String colors[] = {"Red", "Green", "Blue", "White", "Black"};
 
-    public static void main(String[] args) {
+    public void test() {
 
         for (int i = 0; i < 20; ++i) {
             Circle circle = (Circle) ShapeFactory.getCircle(getRandomColor());
@@ -12,6 +12,7 @@ public class FlyweightPatternDemo {
             circle.setRadius(100);
             circle.draw();
         }
+        System.out.println("Done");
     }
 
     private static String getRandomColor() {

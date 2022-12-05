@@ -13,7 +13,7 @@ public class ChainPatternDemo {
         return errorLogger;
     }
 
-    public static void main(String[] args) {
+    public void test() {
         AbstractLogger loggerChain = getChainOfLoggers();
 
         loggerChain.logMessage(AbstractLogger.INFO,
@@ -24,5 +24,7 @@ public class ChainPatternDemo {
 
         loggerChain.logMessage(AbstractLogger.ERROR,
                 "This is an error information.");
+        System.out.println("Done");
     }
+
 }

@@ -5,27 +5,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aacfc61-ef1b-4082-ac59-a49120ef769b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/FacadePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/ShapeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FacadePattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/FlyweightPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyweightPattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/ProxyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyPattern/RealImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessDelegatePattern/BusinessDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessDelegatePattern/BusinessDelegatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessDelegatePattern/BusinessLookUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessDelegatePattern/BusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessDelegatePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessDelegatePattern/EJBService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BusinessDelegatePattern/JMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/BuyStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/CommandPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/SellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeEntityPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeEntityPattern/CoarseGrainedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeEntityPattern/CompositeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeEntityPattern/CompositeEntityPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeEntityPattern/DependentObject1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompositeEntityPattern/DependentObject2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPattern/DaoPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPattern/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPattern/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPattern/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrontControllerPattern/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrontControllerPattern/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrontControllerPattern/FrontControllerPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrontControllerPattern/HomeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrontControllerPattern/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/DebugFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/FilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/FilterManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/InterceptingFilterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterceptingFilterPattern/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterpreterPattern/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterpreterPattern/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterpreterPattern/InterpreterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterpreterPattern/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterpreterPattern/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorPattern/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorPattern/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorPattern/IteratorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorPattern/NameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVCPattern/MVCPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVCPattern/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVCPattern/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MVCPattern/StudentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediatorPattern/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediatorPattern/MediatorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediatorPattern/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MementoPattern/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MementoPattern/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MementoPattern/MementoPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MementoPattern/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectPattern/AbstractCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectPattern/CustomerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectPattern/NullCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectPattern/NullPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullObjectPattern/RealCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/BinaryObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/HexaObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/ObserverPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverPattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServiceLocatorPattern/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServiceLocatorPattern/InitialContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServiceLocatorPattern/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServiceLocatorPattern/Service1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServiceLocatorPattern/Service2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServiceLocatorPattern/ServiceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServiceLocatorPattern/ServiceLocatorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StatePattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StatePattern/StartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StatePattern/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StatePattern/StatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StatePattern/StopState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/OperationAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/OperationMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/OperationSubstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StrategyPattern/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/Cricket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/Football.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplatePattern/TemplatePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TransferObjectPattern/StudentBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TransferObjectPattern/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TransferObjectPattern/TransferObjectPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/ComputerPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/ComputerPartDisplayVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/ComputerPartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisitorPattern/VisitorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZZPatternTest/TestCall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractFactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractFactoryPattern/AbstractFactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterPattern/AdapterPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern/AdapterPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BridgePattern/BridgePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BridgePattern/BridgePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BuilderPattern/BuilderPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuilderPattern/BuilderPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChainOfResponsibilityPattern/ChainPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompositePattern/CompositePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompositePattern/CompositePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecoratorPattern/DecoratorPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecoratorPattern/DecoratorPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FacadePattern/FacadePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FacadePattern/FacadePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FactoryPattern/FactoryPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPattern/FactoryPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FilterPattern/CriteriaPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FilterPattern/CriteriaPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlyweightPattern/FlyweightPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlyweightPattern/FlyweightPatternDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrototypePattern/PrototypePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrototypePattern/PrototypePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProxyPattern/ProxyPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProxyPattern/ProxyPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SingletonPattern/SingletonPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingletonPattern/SingletonPatternDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +161,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,7 +183,9 @@
       <workItem from="1669777890852" duration="1984000" />
       <workItem from="1669845493310" duration="6987000" />
       <workItem from="1669854599308" duration="25000" />
-      <workItem from="1669931307633" duration="9155000" />
+      <workItem from="1669931307633" duration="14544000" />
+      <workItem from="1670189015979" duration="1528000" />
+      <workItem from="1670203921462" duration="5174000" />
     </task>
     <servers />
   </component>

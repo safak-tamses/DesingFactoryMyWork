@@ -1,7 +1,7 @@
 package FactoryPattern;
 
 public class FactoryPatternDemo {
-    public static void main(String[] args) {
+    public void test() {
         ShapeFactory shapeFactory = new ShapeFactory();
 
         Shape shape1 = shapeFactory.getShape("CIRCLE");
@@ -12,6 +12,7 @@ public class FactoryPatternDemo {
 
         Shape shape3 = shapeFactory.getShape("SQUARE");
         shape3.draw();
+        System.out.println("Done");
 
 
     }
